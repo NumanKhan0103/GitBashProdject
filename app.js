@@ -2,15 +2,9 @@ window.alert("HI Git hub form javascript");
 
 
 function new_user() {
-    alert("hi new user ");
-    if (true) {
-        // code 
+    if(user_name){
+        alert("new user is add");
     } else {
-        //code
-        if (true) {
-            //code 
-        } else {
-
-        }
+        alert("Not Add new User");
     }
 }
